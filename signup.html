@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="validation.js" defer></script>
+</head>
+<body>
+    <header class="head">
+        <img src="" />
+    </header>
+    <div class="block">
+        <form class="box" action="process-signup.php" method="post" id="signup" novalidate>
+            <div class="heading">
+                <h2>Sign Up</h2>
+            </div>
+            <div class="user">
+                <input type="text" id="Full Name" name="Full Name" placeholder="Full Name" />
+            </div>
+            <div class="user">
+                <input type="text" id="Nick Name" name="Nick Name" placeholder="Nick Name" />
+            </div>
+            <div class="user">
+                <input type="text" id="email" name="email" placeholder="email" />
+            </div>
+            <div class="password">
+                <input type="password" id="password" name="password" placeholder="Password" />
+            </div>
+            <div class="password">
+                <input type="password" id="password_confirmation" name="password_confirmation" placeholder="re-enter password" /> 
+            </div>
+            <div class="button">
+                <div class="submit">
+                    <button>
+                        <a href="#">Sign Up</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="login.html">Log In?</a>
+                <br />
+                <br />
+                <a href="index.html">Return to Home Page?</a>
+            </div>
+
+            <div class="social">
+                <ul class="items">
+                    <li><img src="" /></li>
+                    <li><img src="" /></li>
+                    <li><img src="" /></li>
+                    <li><img src="" /></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
